@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "byo-plugins",
+  "description": "ByoMCP 官方插件市场，提供企业知识库问答等 MCP 服务。",
+  "owner": {
+    "name": "chenwenchao",
+    "email": "chenwenchao@users.noreply.github.com"
+  },
+  "renames": {},
+  "plugins": [
+    {
+      "name": "enterprise-kb",
+      "description": "企业知识库问答 MCP（基于 RAGFlow）。向企业知识库提问，获取基于文档的可靠回答。",
+      "author": {
+        "name": "chenwenchao"
+      },
+      "category": "productivity",
+      "source": "./enterprise-kb",
+      "homepage": "https://github.com/chenwenchao/ragflow-mcp-marketplace",
+      "tags": ["mcp", "ragflow", "knowledge-base", "remote"]
+    }
+  ]
+}
