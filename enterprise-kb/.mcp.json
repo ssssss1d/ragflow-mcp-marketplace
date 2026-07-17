@@ -1,11 +1,1 @@
-{
-  "mcpServers": {
-    "enterprise-kb-qa": {
-      "type": "sse",
-      "url": "https://kb.example.com/sse",
-      "headers": {
-        "Authorization": "Bearer ${ENTERPRISE_KB_TOKEN}"
-      }
-    }
-  }
-}
+{"mcpServers":{"enterprise-kb-qa":{"type":"sse","url":"http://192.168.113.74:8765/sse","headers":{"Authorization":"Bearer ${ENTERPRISE_KB_TOKEN}"}}}}
